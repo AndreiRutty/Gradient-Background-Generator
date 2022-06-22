@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BG Generator</title>
+  </head>
+  <body>
+    <h1 id="title">Background Generator</h1>
+    <div class="container flexbox">
+      <div id="background"></div>
+      <div id="setting">
+        <h1 class="setting_title">PALETTE</h1>
+        <hr>
+        <div class="container grid">
+            <div class="box">
+                <h4>Color 1</h4>
+                <input type="color"  id="color1">
+            </div>
+            <div class="box">
+                <h4>Color 2</h4>
+                <input type="color"  id="color2">
+            </div>
+        </div>
+        <h1 class="setting_title">CSS CODE</h1>
+        <hr>
+        <div id="code_container">
+            <div id="code">
+                <h3 id ="css_code">background: linear-gradient(to right, white, white);</h3>
+            </div>
+            <button id="copy_btn">COPY</button>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
